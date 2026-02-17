@@ -273,8 +273,6 @@ dlast           # Execute sh in last container
 devtools-code   # Open devtools in VSCode
 devtools-up     # Start devtools docker compose
 devtools-down   # Stop devtools docker compose
-goma-up         # Start goma provider docker compose
-goma-down       # Stop goma provider docker compose
 ```
 
 ---
@@ -370,4 +368,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - These scripts are optimized for **Zsh** shell
 - Project search paths can be customized in `functions.zsh`
 - Docker aliases work best with Docker and Docker Compose installed
-- Environment variables like `$devtools` and `$gomaProvider` should be set in your shell configuration
+- Environment variables like `$devtools` should be set in your shell configuration
